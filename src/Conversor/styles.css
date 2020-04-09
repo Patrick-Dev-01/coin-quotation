@@ -1,0 +1,60 @@
+strong{
+    color: white;
+    font-size: 16pt;
+}
+
+.conversor{
+    background-color: rgb(109, 109, 109);
+    width: 85%;
+    height: 250px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    padding: 5px;
+    margin-top: 20px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 4px 4px rgb(3, 3, 3);
+}
+
+p{
+    color: black;
+}
+
+.coin{
+    margin-left: 10px;
+}
+
+.brl{
+    margin-left: 10px;
+    color: white;
+    font-size: 16pt;
+}
+
+.brl-valor{
+    font-size: 18pt;
+    color: white;
+}
+
+label{
+    font-size: 14pt;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+input{
+    width: 100px;
+    height: 15px;
+    margin-left: 5px;
+    padding: 5px;
+    bottom: 0;
+    font-size: 14pt;
+}
+
+/* mobile */
+
+@media screen and (max-width: 600px){
+    .brl, .coin, label{
+        margin-left: 5px;
+    }
+}
+
